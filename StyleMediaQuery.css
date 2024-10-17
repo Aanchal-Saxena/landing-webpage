@@ -1,0 +1,264 @@
+@media only screen and (max-width: 1255px) {
+  .navbar {
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .nav-options-container {
+    display: none;
+  }
+
+  .nav-buttons {
+    display: none;
+  }
+
+  .toggle-btn {
+    display: flex;
+  }
+
+  .navbar {
+    justify-content: space-between;
+    padding: 0 5rem;
+  }
+
+  .brand-name-container {
+    width: 50%;
+  }
+
+  .brand-name-container span {
+    font-size: 1.5rem;
+  }
+
+  .dropdown-menu {
+    display: block;
+    margin-left: 2rem;
+  }
+
+  .dd-options {
+    display: flex;
+  }
+
+  .dd-buttons {
+    display: flex;
+    width: 100%;
+  }
+
+  .join-us-button-container button {
+    font-size: 1.2rem;
+  }
+
+  .section1-buttons {
+    flex-direction: column;
+  }
+
+  .main-heading p {
+    font-size: 2.4rem;
+    line-height: 2.2rem;
+  }
+
+  .section1-content1 span {
+    font-size: 1rem;
+  }
+
+  .s1-cards-cont {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  .s1-card {
+    width: 237px;
+  }
+
+  .s2-cont {
+    gap: 4rem;
+  }
+
+  .s4-card {
+    width: 360px;
+    margin-bottom: 3rem;
+  }
+
+  .s5-card {
+    width: 350px;
+    margin-bottom: 3rem;
+  }
+
+  .s6-card {
+    width: 508px;
+    margin-bottom: 3rem;
+  }
+
+
+  .email-input-cont button {
+    font-size: 0.8rem;
+  }
+
+  .email-input-cont input {
+    font-size: 0.8rem;
+  }
+
+  .footer-cont1 {
+    gap: 3rem;
+  }
+
+  .footer-list {
+    width: 40vw;
+  }
+
+  .footer-list span {
+    font-size: 0.8rem;
+  }
+
+  .footer-msg span {
+    font-size: 0.8rem;
+  }
+
+  .footer-cont2 {
+    gap: 0rem;
+  }
+
+  .footer-social-media {
+    gap: 2vh;
+  }
+}
+
+@media only screen and (max-width: 682px) {
+   .email-input-cont {
+    align-items: center;
+    height: 2.5rem;
+  }
+
+  .email-input-cont button {
+    width: 25%;
+    font-size: 0.6rem;
+  }
+
+  .email-input-cont input {
+    width: 75%;
+    align-items: center;
+  }  
+
+  .footer-social-media {
+    gap: 1vh;
+  }
+
+  .section-content-para p  {
+    font-size: 1.2rem;
+  }
+
+  .footer-cont1 {
+    flex-wrap: wrap;
+  }
+
+  .footer-list {
+    gap: 0.2rem;
+    width: 40%;
+  }
+  /* .dropdown-menu {
+        margin: 2rem;
+        width: 80vw;
+        right: 0.5rem;
+        top: 3.5rem;
+    } */
+}
+
+@media only screen and (max-width: 640px) {
+  .section1-cont {
+    padding: 2rem 1rem;
+  }
+
+  .s3-cont {
+    flex-direction: column;
+  }
+
+  .s3-content-cont {
+    width: 80%;
+  }
+
+  .s4-card {
+    width: 360px;
+    margin-bottom: 3rem;
+  }
+
+  .s5-card {
+    width: 80%;
+    gap: 0.8rem;
+  }
+
+  .s6-info {
+    margin-bottom: 8rem;
+  }
+
+  .card-content-style {
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 436px) {
+    .brand-name-container span {
+        font-size: 1rem;
+      }
+      .brand-name-container {
+        width: 40vw;
+      }
+
+      .section-content-para p  {
+        font-size: 1rem;
+      }
+
+      .s5-card {
+        width: 100%;
+        gap: 0.5rem;
+      }
+
+      .footer-msg span{
+        font-size: 0.7rem;
+        line-height: 0.7rem;
+      }
+
+      .section-heading span {
+        font-size: 2rem;
+      }
+
+      .list-item-cont label {
+        height: 40px;
+        width: 40px;
+        left: 10px;
+      }
+
+      .email-input-cont {
+        align-items: center;
+        gap: 0.5rem;
+        flex-direction: column;
+        height: fit-content;
+        border: none;
+        box-shadow: none;
+        border-radius: 5px;
+      }
+    
+      .email-input-cont button {
+        width: 50%;
+        font-size: 0.6rem;
+        border-radius: 5px;
+        height: 2rem;
+      }
+    
+      .email-input-cont input {
+        width: 100%;
+        align-items: center;
+        height: 2rem;
+        border: 1px solid purple;
+        border-radius: 5px;
+      }  
+
+      .list-item-cont label span {
+        border-width: 0 1px 1px 0;
+      }
+
+      .footer-cont1 {
+        padding: 3%;
+      }
+}
